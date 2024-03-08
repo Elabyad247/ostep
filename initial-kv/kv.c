@@ -81,7 +81,7 @@ int main(int argc, char *argv[]) {
                 }
                 char *value = getValue(key);
                 if (value == NULL) {
-                    printf("K not found\n");
+                    printf("%d not found\n", key);
                 }
                 else {
                     printf("%d,%s\n", key, value);
@@ -100,7 +100,7 @@ int main(int argc, char *argv[]) {
                 }
                 int index = getIndex(key);
                 if (index == -1) {
-                    printf("K not found\n");
+                    printf("%d not found\n", key);
                 }
                 else {
                     for (int j = index; j < size - 1; ++j) {

@@ -31,15 +31,17 @@ Running a process instance of a program requires the OS to remember the *machine
 
 ### Process API
 
-- *Create*: An operating system must include some method to create new processes. 
+*Application programming interface* (API) means the set of interfaces a lower-layer system/library provides to upper-layer programs. The APIs that an OS provides to user programs are called **system calls** (*syscalls*). Everything a user program wants to do that might require system-level privileges, such as creating processes, accessing shared resources, and communicating with other processes, are typically done through invoking system calls.
+
+- *Create*: An operating system must include some method to create new processes; *initialize* the states, *load* the program from persistent storage in some *executable format*, and get the process running at the entry point of its code; the process then runs. 
 
 - *Destroy*: As there is an interface for process creation, systems also provide an interface to destroy processes forcefully.
 
-- *Wait*: Sometimes it is useful to wait for another process to stop running.
+- *Wait*: let a process wait for the termination of another process.
 
 - *Miscellaneous Control*: provide some kind of method to suspend a process and then resume it.
 
-- *Status*: There are usually interfaces to get some status information about a process as well, such as how long it has run for, or what state it is in.
+- *Status*: get some status information about a process, such as how long it has run for, or what state it is in.
 
 ### Process Creation
 
@@ -68,8 +70,6 @@ A process can be in one of the following states at any given time:
 - Terminated (Final): has exited/been killed but its information data structures have not been cleaned up yet 
 
 ![Process States](assets/Process States.png)
-
-- 
 
 ### Data Structures
 

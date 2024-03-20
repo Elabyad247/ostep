@@ -65,7 +65,11 @@ A process can be in one of the following states at any given time:
 
 - Blocked: waiting for some event to happen, e.g., waiting for disk I/O completion or waiting for another process to finish, hence not ready to be scheduled at this moment.
 
-- Terminated (Final): has exited/been killed but its information data structures have not been cleaned up yet<img title="" src="file:///home/elabyad/CLionProjects/OSTEP/notes/assets/Process%20States.png" alt="Process States" width="338" data-align="center">
+- Terminated (Final): has exited/been killed but its information data structures have not been cleaned up yet 
+
+![Process States](assets/Process States.png)
+
+- 
 
 ### Data Structures
 

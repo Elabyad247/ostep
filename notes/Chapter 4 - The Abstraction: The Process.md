@@ -69,7 +69,7 @@ A process can be in one of the following states at any given time:
 
 - Terminated (Final): has exited/been killed but its information data structures have not been cleaned up yet 
 
-![Process States](assets/Process States.png)
+<img title="" src="file:///home/elabyad/CLionProjects/OSTEP/notes/assets/process-states.png" alt="Process States" width="362" data-align="center">
 
 ### Data Structures
 

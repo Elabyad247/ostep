@@ -1,0 +1,3 @@
+/home/elabyad/CLionProjects/OSTEP/cmake-build-debug/CMakeFiles/OSTEP.dir
+/home/elabyad/CLionProjects/OSTEP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/elabyad/CLionProjects/OSTEP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

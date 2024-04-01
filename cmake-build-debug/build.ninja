@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/elabyad/CLionProjects/OSTEP/cmake-build-debug/
 
 build cmake_object_order_depends_target_OSTEP: phony || CMakeFiles/OSTEP.dir
 
-build CMakeFiles/OSTEP.dir/homeworks/cpu-api/8.c.o: C_COMPILER__OSTEP_unscanned_Debug /home/elabyad/CLionProjects/OSTEP/homeworks/cpu-api/8.c || cmake_object_order_depends_target_OSTEP
-  DEP_FILE = CMakeFiles/OSTEP.dir/homeworks/cpu-api/8.c.o.d
+build CMakeFiles/OSTEP.dir/homeworks/cpu-mechanisms/measurement.c.o: C_COMPILER__OSTEP_unscanned_Debug /home/elabyad/CLionProjects/OSTEP/homeworks/cpu-mechanisms/measurement.c || cmake_object_order_depends_target_OSTEP
+  DEP_FILE = CMakeFiles/OSTEP.dir/homeworks/cpu-mechanisms/measurement.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/OSTEP.dir
-  OBJECT_FILE_DIR = CMakeFiles/OSTEP.dir/homeworks/cpu-api
+  OBJECT_FILE_DIR = CMakeFiles/OSTEP.dir/homeworks/cpu-mechanisms
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/OSTEP.dir/homeworks/cpu-api/8.c.o: C_COMPILER__OSTEP_unscanned_
 #############################################
 # Link the executable OSTEP
 
-build OSTEP: C_EXECUTABLE_LINKER__OSTEP_Debug CMakeFiles/OSTEP.dir/homeworks/cpu-api/8.c.o
+build OSTEP: C_EXECUTABLE_LINKER__OSTEP_Debug CMakeFiles/OSTEP.dir/homeworks/cpu-mechanisms/measurement.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/OSTEP.dir
   POST_BUILD = :

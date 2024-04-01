@@ -3,4 +3,4 @@ project(OSTEP C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(OSTEP homeworks/cpu-api/8.c)
+add_executable(OSTEP homeworks/cpu-mechanisms/measurement.c)

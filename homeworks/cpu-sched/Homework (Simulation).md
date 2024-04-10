@@ -68,5 +68,3 @@
 7. What happens to response time with RR as quantum lengths increase? Can you write an equation that gives the worst-case response time, given N jobs?
    
    **ANSWER:** Response time increases linearly with quantum length increase, the worst-case response time is $(N-1)*q/N$
-
-
